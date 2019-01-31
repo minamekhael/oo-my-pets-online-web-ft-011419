@@ -18,6 +18,6 @@ class Owner
   end
   
   def buy_fish
-    Fish.new
+    self.fish.new
   end
 end
