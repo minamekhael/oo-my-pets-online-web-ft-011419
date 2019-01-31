@@ -33,6 +33,6 @@ class Owner
   end
   
   def walks_dogs
-    Dog.mood << "happy"
+    pets[:dogs]
   end
 end
