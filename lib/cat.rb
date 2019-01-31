@@ -1,7 +1,7 @@
 class Cat
   attr_accessor :name
   
-  def initialize
+  def (name)
     @name = name
   end
 end
