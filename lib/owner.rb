@@ -43,4 +43,8 @@ class Owner
   def feed_fish
     pets[:fishes].map {|fish| fish.mood = "happy"}
   end
+  
+  def sell_pets
+    @@all.clear
+  end
 end
