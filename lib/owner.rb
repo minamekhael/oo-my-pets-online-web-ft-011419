@@ -33,6 +33,6 @@ class Owner
   end
   
   def walks_dogs
-    pets[:dogs]
+    pets[:dogs].map do 
   end
 end
