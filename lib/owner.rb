@@ -17,7 +17,7 @@ class Owner
     @species
   end
   
-  def buy_fish
-    self.fish.new
+  def buy_fish(name)
+    Fish.new = name
   end
 end
